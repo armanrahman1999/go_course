@@ -7,7 +7,7 @@ func main() {
 }
 
 func process() {
-	// Thiis wors in lifo
+	// Thiis works in lifo
 	defer fmt.Println("This is dfered")
 	defer fmt.Println("dree dree")
 	fmt.Println(" This is normal execution")
