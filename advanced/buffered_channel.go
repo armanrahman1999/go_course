@@ -1,8 +1,8 @@
-package main
+// package main
 
-// buffer is a storage
+// // buffer is a storage
 
-func main() {
+// func main() {
 
 
-}
+// }

@@ -1,18 +1,18 @@
-package advanced
+package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
+
+func sendMessage(num int) {
+	fmt.Printf("Sending message %d\n", num)
+
+	time.Sleep(time.Second * time.Duration(num)) // Simulate some work
+
+	msg := fmt.Sprintf("✅ Message %d sent!", num)
+}
 
 func main() {
 
-	//variable:= make(chan type)
-	// we can not make a channel work inside any function 
-	//It needs goroutine
-	greeting := make(chan string)
-	greetString := "Hello"
-	go func(){
-		greeting <- greetString
-
-	}()
-	reciever := <-greeting
-	fmt.Println(reciever)
 }
