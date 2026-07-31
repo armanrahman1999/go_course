@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// buffer is a storage
+// // buffer is a storage
 
 func main() {
 
